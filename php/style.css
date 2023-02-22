@@ -1,0 +1,66 @@
+body, html {
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+article {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+
+article > div {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+span {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+}
+
+fieldset > div {
+    margin-bottom: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
